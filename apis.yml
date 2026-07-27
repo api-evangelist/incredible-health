@@ -1,8 +1,18 @@
 aid: incredible-health
 name: Incredible Health
-description: Incredible Health is a company surfaced as a portfolio company of a16z, obvious-ventures
-  and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the
-  enrichment pipeline.
+description: >-
+  Incredible Health is an AI-native healthcare career marketplace that connects
+  registered nurses, technicians, and technologists with permanent jobs at top
+  hospitals and health systems. It flips traditional recruiting by having employers
+  apply to pre-screened, verified professionals rather than the reverse. The platform
+  serves 1.5 million+ U.S. healthcare workers and 1,500+ employers, including a
+  majority of the nation's top-ranked hospital systems, cutting time-to-hire from a
+  national average of roughly 86 days to under 20. Two purpose-built AI agents power
+  the marketplace: Gale, a career partner for professionals (resume wizard, interview
+  practice), and Lyn, a voice interview agent for employers that integrates with
+  applicant-tracking systems. Founded by Iman Abuzeid, MD, and headquartered in San
+  Francisco, the company is venture-backed by Andreessen Horowitz, Obvious Ventures,
+  and NFX.
 url: https://raw.githubusercontent.com/api-evangelist/incredible-health/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,11 +21,32 @@ x-backed-by:
 - obvious-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+image: https://www.incrediblehealth.com/wp-content/uploads/2025/11/IncredibleHealth_Meta_Lyn-1.png
 tags:
 - Company
+- Healthcare
+- Hiring
+- Nursing
+- Recruiting
+- Marketplace
+- Artificial Intelligence
+- Career
+- Talent
+- Workforce
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,4 +55,33 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://incrediblehq.com
+  url: https://www.incrediblehealth.com
+- type: About
+  url: https://www.incrediblehealth.com/about/
+- type: Blog
+  url: https://www.incrediblehealth.com/blog/
+- type: Pricing
+  url: https://www.incrediblehealth.com/pricing/
+- type: TermsOfService
+  url: https://www.incrediblehealth.com/terms/
+- type: PrivacyPolicy
+  url: https://www.incrediblehealth.com/privacy/
+- type: Support
+  url: https://www.incrediblehealth.com/contact/
+- type: Login
+  url: https://www.incrediblehealth.com/login/
+- type: GitHubOrganization
+  url: https://github.com/incrediblehealth
+- type: LinkedIn
+  url: https://www.linkedin.com/company/incrediblehealth
+- type: Careers
+  url: https://www.incrediblehealth.com/careers/
+- type: LLMsTxt
+  url: llms/incredible-health-llms.txt
+- type: DomainSecurity
+  url: security/incredible-health-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
